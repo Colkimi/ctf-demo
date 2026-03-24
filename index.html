@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-build="v2024.03" data-secret="genius{html_root_attribute}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TechVault - Your trusted secure platform for managing digital assets." />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="api-key" content="genius{meta_tag_api_key}" />
+    <title>TechVault - Secure Platform</title>
+    <script>
+      window.config = {
+        version: '2024.03.01',
+        environment: 'production',
+        api_url: 'https://api.techvault.local'
+      }
+      window.localStorage.setItem('session_id', 'sess_' + Math.random().toString(36).substr(2, 9))
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

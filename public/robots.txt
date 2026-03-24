@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin
+Disallow: /api/secrets
+Disallow: /api/hidden-config
+Allow: /
+
+# Remove in prod
+# genius{robots_txt_discovery}
