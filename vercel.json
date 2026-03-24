@@ -5,9 +5,7 @@
   "framework": "vite",
   "public": "dist",
   "env": {
-    "VITE_API_URL": {
-      "default": "https://api.techvault.local"
-    }
+    "VITE_API_URL": "https://api.techvault.local"
   },
   "functions": {
     "api/**/*.ts": {
