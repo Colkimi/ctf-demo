@@ -3,7 +3,6 @@
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
   "framework": "vite",
-  "public": "dist",
   "env": {
     "VITE_API_URL": "https://api.techvault.local"
   },
